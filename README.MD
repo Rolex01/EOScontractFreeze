@@ -9,7 +9,7 @@ List of test steps:
 ```sh
 $ eosio-cpp -o freeze.wasm freeze.cpp
 $ cleos set contract freeze $CONTRACTDIR/freeze --abi freeze.abi -p freeze@active
-$ $ cleos create account eosio bob YOUR_PUBLIC_KEY 
+$ cleos create account eosio bob YOUR_PUBLIC_KEY 
 $ cleos create account eosio alice YOUR_PUBLIC_KEY
 $ cleos create account eosio freeze  EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
 $ cleos push action freeze create '[ "eosio", "10000000.0000 EOS"]' -p freeze@active
